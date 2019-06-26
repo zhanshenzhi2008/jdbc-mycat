@@ -9,7 +9,7 @@ import java.util.Date;
  * @create 2019-06-26 20:08
  * @since 1.0.0
  */
-public class Employee {
+public class HotNews {
     /** 主键 */
     private Long id;
 

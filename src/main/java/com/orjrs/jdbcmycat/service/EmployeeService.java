@@ -1,6 +1,6 @@
 package com.orjrs.jdbcmycat.service;
 
-import com.orjrs.jdbcmycat.model.Employee;
+import com.orjrs.jdbcmycat.model.HotNews;
 
 /**
  * 雇员服务接口
@@ -10,5 +10,5 @@ import com.orjrs.jdbcmycat.model.Employee;
  * @since 1.0.0
  */
 public interface EmployeeService {
-    Employee get(Long id);
+    HotNews get(Long id);
 }

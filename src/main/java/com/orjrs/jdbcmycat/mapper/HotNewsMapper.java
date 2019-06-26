@@ -1,6 +1,6 @@
 package com.orjrs.jdbcmycat.mapper;
 
-import com.orjrs.jdbcmycat.model.Employee;
+import com.orjrs.jdbcmycat.model.HotNews;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
@@ -13,6 +13,6 @@ import org.springframework.stereotype.Repository;
  */
 @Mapper
 @Repository
-public interface EmployeeMapper {
-    Employee get(Long id);
+public interface HotNewsMapper {
+    HotNews get(Long id);
 }

@@ -1,6 +1,6 @@
 package com.orjrs.jdbcmycat.controller;
 
-import com.orjrs.jdbcmycat.model.Employee;
+import com.orjrs.jdbcmycat.model.HotNews;
 import com.orjrs.jdbcmycat.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,12 +16,12 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/orjrs")
-public class EmployeeController {
+public class HotNewsController {
     @Autowired
     private EmployeeService employeeService;
 
     @RequestMapping("get/{id}")
-    public Employee GetUser(@PathVariable Long id) {
+    public HotNews GetUser(@PathVariable Long id) {
         return employeeService.get(id);
     }
 }

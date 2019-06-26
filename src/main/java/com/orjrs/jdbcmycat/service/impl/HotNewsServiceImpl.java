@@ -1,6 +1,7 @@
 package com.orjrs.jdbcmycat.service.impl;
 
-import com.orjrs.jdbcmycat.model.Employee;
+import com.orjrs.jdbcmycat.mapper.HotNewsMapper;
+import com.orjrs.jdbcmycat.model.HotNews;
 import com.orjrs.jdbcmycat.service.EmployeeService;
 import org.springframework.stereotype.Service;
 
@@ -14,13 +15,13 @@ import javax.annotation.Resource;
  * @since 1.0.0
  */
 @Service
-public class EmployeeServiceImpl implements EmployeeService {
+public class HotNewsServiceImpl implements EmployeeService {
 
     @Resource
-    private EmployeeService employeeService;
+    private HotNewsMapper hotNewsMapper;
 
     @Override
-    public Employee get(Long id) {
-        return employeeService.get(id);
+    public HotNews get(Long id) {
+        return hotNewsMapper.get(id);
     }
 }
