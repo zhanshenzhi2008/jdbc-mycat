@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 
 /**
- * 雇员服务实现类
+ * 热点新闻服务实现类
  *
  * @author orjrs
  * @create 2019-06-26 20:10

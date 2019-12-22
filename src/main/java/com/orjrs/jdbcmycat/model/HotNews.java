@@ -3,7 +3,7 @@ package com.orjrs.jdbcmycat.model;
 import java.util.Date;
 
 /**
- * 雇员实体
+ * 热点新闻实体
  *
  * @author orjrs
  * @create 2019-06-26 20:08

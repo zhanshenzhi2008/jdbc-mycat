@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 雇员控制层
+ * 热点新闻控制层
  *
  * @author orjrs
  * @create 2019-06-26 20:01
